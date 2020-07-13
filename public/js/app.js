@@ -1,4 +1,4 @@
-console.log('Client side js file is printed')
+console.log('Client side js file is printed here')
 
 /*fetch() is a function defined by browser.It cannot be used by nodejs*/
 
