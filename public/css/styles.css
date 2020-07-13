@@ -1,0 +1,56 @@
+body{
+    color:#333333;
+    font-family:arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;     /*flex-box*/
+    flex-direction: column; /*column allows us to go everything from top to bottom and row allows us to go everything fron left to right.*/
+    min-height: 100vh; /*viewport is the box where our content is like here its the browser box */
+}
+
+/*Padding will put space inside the box(box can be seen by putting background color) and margin will provide space outside the box*/
+
+.main-content{
+    flex-grow: 1;   /*It allows the text to take space as much as it needs*/
+}
+footer{
+    color:#888888 ;  
+    border-top: 1px solid #eeeeee ;
+    margin-top: 16px;
+    padding: 16px 0px;  /*(16px is for top and bottom and 0px is for left and right)*/
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a{
+    color:#888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait{
+    width:250px;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
