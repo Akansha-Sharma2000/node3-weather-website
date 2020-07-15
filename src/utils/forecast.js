@@ -33,7 +33,7 @@ const forecast=(latitude,longitude,callback)=>{
           callback('Unable to find information.', undefined)
         }
         else{
-          callback(undefined,  body.current.weather[0].description + ' It is currently ' + body.current.temp + ' degrees out. There is a ' + body.current.clouds + "% chance of rain.")
+          callback(undefined, body.current.weather[0].main + ', ' + body.current.weather[0].description + '. It is currently ' + body.current.temp + ' degrees out. There is a ' + body.current.clouds + "% chance of rain.")
         }
       })
     }
