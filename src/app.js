@@ -1,4 +1,5 @@
-//I by mistake we removed node modules folder we can regain it by typing npm install in the terminal.
+//If by mistake we removed node modules folder we can regain it by typing npm install in the terminal.'
+//If in the terminal we were using nodemon to start the server we would have to use "nodemon src/app.js -e js,hbs".
 const path=require('path')
 const express=require('express')
 const hbs=require('hbs')
